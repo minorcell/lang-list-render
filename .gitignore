@@ -28,3 +28,15 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+
+*.vscode
+* .idea
+
+# pnpm
+pnpm-lock.yaml
+
+# npm
+package-lock.json
+
+# Cursor
+.cursorrules
