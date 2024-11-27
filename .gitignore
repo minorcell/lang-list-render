@@ -29,14 +29,6 @@ coverage
 
 *.tsbuildinfo
 
-*.vscode
-* .idea
-
-# pnpm
-pnpm-lock.yaml
-
-# npm
-package-lock.json
-
-# Cursor
 .cursorrules
+package-lock.json
+pnpm-lock.yaml
