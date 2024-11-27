@@ -1,39 +1,31 @@
-# testToc
+# 长列表渲染性能优化台
 
-This template should help get you started developing with Vue 3 in Vite.
+> 使用vue3 + ts + vite + pinia + vue-router + tailwindcss 实现。
 
-## Recommended IDE Setup
+## 主要包括：
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+1. 直接渲染十万条数据
+2. 时间切片渲染
 
-## Type Support for `.vue` Imports in TS
+- 使用setTimeout模拟异步渲染
+- 使用requestAnimationFrame模拟同步渲染
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+3. 虚拟列表渲染
+   ...更多内容正在开发，目标是最终实现大多数前端性能优化场景的模拟。
 
-## Customize configuration
+## 使用
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+1. 安装依赖
 
-## Project Setup
-
-```sh
+```bash
 pnpm install
 ```
 
-### Compile and Hot-Reload for Development
+2. 启动项目
 
-```sh
-pnpm dev
+```bash
+pnpm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-pnpm build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
-```
+## 更多
+如果在平台使用过程中有什么问题或者建议
