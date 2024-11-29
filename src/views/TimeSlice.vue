@@ -1,6 +1,6 @@
 <template>
     <div>时间切片</div>
-    <RunInfo :start-time="startTime" :product-time="productTime" :render-time="renderTime"
+    <RunInfo type="timeslice" :start-time="startTime" :product-time="productTime" :render-time="renderTime"
         @render-setTimeout="renderSetTimeout" @render-inFrame="renderInFrame" />
     <div class="flex flex-col w-full items-center">
         <DataItem v-for="item in data" :key="item.index" :item="item.data" />

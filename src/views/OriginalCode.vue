@@ -1,6 +1,6 @@
 <template>
     <div>原生代码</div>
-    <RunInfo :start-time="startTime" :product-time="productTime" @start-render="startRender"
+    <RunInfo type="redirect" :start-time="startTime" :product-time="productTime" @start-render="startRender"
         :render-time="renderTime" />
     <div class="flex flex-col w-full items-center">
         <DataItem v-for="item in data" :key="item" :item="item" />
